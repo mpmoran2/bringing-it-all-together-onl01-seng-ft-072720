@@ -101,3 +101,5 @@ class Dog
     DB[:conn].execute(sql, self.name, self.breed, self.id)
   end
 end
+
+#if its right but not passing, look at SPECs for formatting hints. Sometimes they want it written a specific way and in a specific order 
